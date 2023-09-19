@@ -1,0 +1,32 @@
+body {
+    font-size: 16px; /* Tamaño de fuente base */
+  }
+  
+  h1 {
+    font-size: 2em; /* El tamaño de fuente será el doble del tamaño base, es decir, 32px */
+  }
+  
+  p {
+    font-size: 1.5em; /* El tamaño de fuente será el 1.5 veces el tamaño base, es decir, 24px */
+  }
+
+
+  /* ****index2 */
+
+  .container {
+    font-size: 16px; /* Tamaño de fuente base */
+    display: flex;
+    
+   
+  justify-content: space-between;
+  }
+  
+  .box {
+    font-size: 1.5em; /* Tamaño de fuente en relación con el tamaño de fuente base */
+    width: 4em; /* Ancho en em (3 veces el tamaño de fuente base) */
+    height: 3em; /* Alto en em (3 veces el tamaño de fuente base) */
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 3em; /* Line-height igual al alto para centrar el contenido verticalmente */
+  }
